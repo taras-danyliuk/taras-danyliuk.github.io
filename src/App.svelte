@@ -88,12 +88,11 @@
             width: 100%;
             font-size: 2.5rem;
             line-height: 3rem;
-            text-align: center;
+            text-align: right;
             margin: 0;
         }
 
         h2 {
-            text-align: right;
             margin: 0 0 1rem;
         }
 
