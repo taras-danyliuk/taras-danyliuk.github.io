@@ -1,16 +1,24 @@
 <script>
     import Row from "./components/Row.svelte";
     import Col from "./components/Col.svelte";
-    import Icon from "svelte-awesome";
-    import { github, linkedin, envelopeO } from 'svelte-awesome/icons';
+
+    import Experience from "./components/Experience.svelte";
+    import Projects from "./components/Projects.svelte";
+    import Education from "./components/Education.svelte";
+    import Skills from "./components/Skills.svelte";
+    import Contacts from "./components/Contacts.svelte";
 </script>
 
 <main>
     <Row>
         <Col span={16}>
             <div class="header">
+                <h2>
+                    JS
+                    <br/>
+                    Developer
+                </h2>
                 <h1>Taras Danyliuk</h1>
-                <h2>JS Developer</h2>
             </div>
         </Col>
 
@@ -24,41 +32,14 @@
             <h3 class="section-title">Summary</h3>
             <p>5+ years of commercial experience in software development. Experience in leading teams, mentoring engineers and software architecture.</p>
 
-            <h3 class="section-title">Experience</h3>
-            <h3 class="section-title">Projects</h3>
-            <h3 class="section-title">Education</h3>
-            <h3 class="section-title">Skills</h3>
+            <Experience/>
+            <Projects/>
+            <Education/>
         </Col>
 
         <Col span={8}>
-            <h3 class="section-title">Contacts</h3>
-
-            <Row>
-                <Col span={3}>
-                    <Icon data={github} scale={1.5}/>
-                </Col>
-                <Col span={21}>
-                    <a href="https://github.com/taras-danyliuk/" target="_blank">taras-danyliuk</a>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col span={3}>
-                    <Icon data={linkedin} scale={1.5}/>
-                </Col>
-                <Col span={21}>
-                    <a href="https://www.linkedin.com/in/taras-danyliuk-832178109" target="_blank">Taras Danyliuk</a>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col span={3}>
-                    <Icon data={envelopeO} scale={1.5}/>
-                </Col>
-                <Col span={21}>
-                    <a href="mailto:tarik.danylyuk@gmail.com">tarik.danylyuk@gmail.com</a>
-                </Col>
-            </Row>
+            <Skills/>
+            <Contacts/>
         </Col>
     </Row>
 </main>
@@ -86,16 +67,16 @@
     h2 {
         font-size: 1.5rem;
         line-height: 1.5rem;
-        font-weight: 400;
+        font-weight: 700;
         text-align: right;
         margin: 0;
     }
 
-    .section-title {
+    :global(.section-title) {
         font-size: 1.75rem;
         line-height: 1.75rem;
         font-weight: 700;
-        margin: 2rem 0 1rem;
+        margin: 3rem 0 1rem;
     }
 
     @media (max-width: 750px) {
@@ -116,10 +97,10 @@
             margin: 0 0 1rem;
         }
 
-        .section-title {
+        :global(.section-title) {
             font-size: 1.675rem;
             line-height: 1.675rem;
-            margin: 1rem 0 0.5rem;
+            margin: 1.5rem 0 0.5rem;
         }
     }
 </style>

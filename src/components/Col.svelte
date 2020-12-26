@@ -2,10 +2,17 @@
   import { css } from '../css.js';
 
   export let span = 24;
+  export let justifyContent = "flex-start";
+  export let alignItems = "flex-start";
+  export let responsive = true;
 </script>
 
 
-<div use:css={{ span }}>
+<div
+        style="justify-content: {justifyContent}; align-items: {alignItems}"
+        use:css={{ span }}
+        class:responsive={responsive}
+>
     <slot/>
 </div>
 
@@ -20,7 +27,7 @@
     }
 
     @media (max-width: 750px) {
-        div {
+        .responsive {
             width: 100%;
         }
     }
