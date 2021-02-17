@@ -2,7 +2,16 @@
     <h3 class="section-title">Experience</h3>
 
     <div class="row">
-        <p class="dates">2019 - Present</p>
+        <p class="dates">2021 - Present</p>
+
+        <div>
+            <h4>Newfire Global Partners</h4>
+            <p>Full Stack Engineer</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <p class="dates">2019 - 2021</p>
 
         <div>
             <h4>COAX Software</h4>
