@@ -2,7 +2,22 @@
     <h3 class="section-title">Projects</h3>
 
     <div class="row">
-        <p class="dates">07.2020 - Present</p>
+        <p class="dates">02.2021 - Present</p>
+
+        <div>
+            <h5>Social platform for elderly people</h5>
+            <p class="company">Newfire Global Partners</p>
+            <p class="description">
+                Platform for communication between elderly people.
+            </p>
+            <p class="technologies">
+                TS, Loopback.js, Nest.js, PostgreSQL, React.js, Redux.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <p class="dates">07.2020 - 02.2021</p>
 
         <div>
             <h5>Reddit like social platform</h5>
