@@ -23,7 +23,7 @@
         </Col>
 
         <Col span={8}>
-            <img src="/profile_image.jpg" alt="Profile Image"/>
+            <img class="image" src="/profile_image.jpg" alt="Profile Image"/>
         </Col>
     </Row>
 
@@ -100,6 +100,12 @@
             font-size: 1.675rem;
             line-height: 1.675rem;
             margin: 1.5rem 0 0.5rem;
+        }
+    }
+
+    @media print {
+        .image {
+            width: 45%;
         }
     }
 </style>

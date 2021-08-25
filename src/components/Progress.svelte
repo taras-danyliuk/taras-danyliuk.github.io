@@ -20,4 +20,14 @@
         height: 100%;
         background-color: #fff;
     }
+
+    @media print {
+        .holder {
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        .value {
+            background-color: #000;
+        }
+    }
 </style>
