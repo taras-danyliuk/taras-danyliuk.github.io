@@ -11,6 +11,13 @@ body {
 	letter-spacing: -0.05em;
 }
 
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
 a {
     color: rgb(179, 179, 179);
     text-decoration: underline;
