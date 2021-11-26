@@ -5,6 +5,15 @@
         <p class="dates">2021 - Present</p>
 
         <div>
+            <h4>Relevant Software</h4>
+            <p>Full Stack Engineer</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <p class="dates">2021 - 2021</p>
+
+        <div>
             <h4>Newfire Global Partners</h4>
             <p>Full Stack Engineer</p>
         </div>
