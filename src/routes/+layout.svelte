@@ -14,6 +14,7 @@
 		<span>Fun Projects:</span>
 		<a href="https://miner.dnlk.info">Miner Game</a>
 		<a href="https://sudoku-winner.dnlk.info/">Sudoku Winner</a>
+		<a href="https://hex-to-rgb.dnlk.info//">HEX to RGB</a>
 	</footer>
 </div>
 
@@ -44,7 +45,7 @@
 
 	footer a {
 		font-weight: bold;
-		margin: 0 0.5rem;
+		margin: 0 1rem;
 	}
 
 	@media (min-width: 480px) {
